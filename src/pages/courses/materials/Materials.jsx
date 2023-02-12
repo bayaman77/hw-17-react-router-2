@@ -8,19 +8,19 @@ const Materials = () => {
   const [searchParams, setSearchParams] = useSearchParams();
 
   const showModalHandler = () => {
-    searchParams.set("showModal", true);
+    searchParams.set("modal", 'addNewMaterial');
     setSearchParams(searchParams);
   };
 
   const closeModalHandler = () => {
-    searchParams.delete("showModal");
+    searchParams.delete("modal");
     setSearchParams(searchParams);
   };
 
   return (
     <MaterialsPage>
       <StyledButton onClick={showModalHandler}>Add new material</StyledButton>
-      {searchParams.has("showModal") && (
+      {searchParams.has("modal") && (
         <Modal onClose={closeModalHandler}>
           <TitleModal>Add new material</TitleModal>
           <p>
