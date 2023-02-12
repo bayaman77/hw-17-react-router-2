@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hw-17-react-router-2/static/css/main.c5b7824d.css",
+    "main.js": "/hw-17-react-router-2/static/js/main.71139209.js",
+    "index.html": "/hw-17-react-router-2/index.html",
+    "main.c5b7824d.css.map": "/hw-17-react-router-2/static/css/main.c5b7824d.css.map",
+    "main.71139209.js.map": "/hw-17-react-router-2/static/js/main.71139209.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5b7824d.css",
+    "static/js/main.71139209.js"
+  ]
+}
